@@ -363,7 +363,8 @@ a {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 24px;
+    border-top: none;
+    border-radius: 0 0 24px 24px;
     padding: 2.5rem;
     position: relative;
     z-index: 1;
@@ -468,10 +469,11 @@ a {
 /* Added Image Styles */
 .experience-image {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 24px 24px 0 0;
     overflow: hidden;
-    margin-bottom: 1rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .experience-image img {
