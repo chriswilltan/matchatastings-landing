@@ -465,6 +465,47 @@ a {
     color: rgba(255, 255, 255, 0.7);
 }
 
+/* Added Image Styles */
+.experience-image {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.experience-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.banner-section {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5rem;
+}
+
+.banner-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
+}
+
 /* Animations */
 .fade-up {
     opacity: 0;
