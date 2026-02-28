@@ -416,20 +416,13 @@ a {
 }
 
 .acuity-placeholder {
-    background: var(--bg-card);
-    border: 2px dashed rgba(165, 124, 82, 0.3);
-    /* wood color dashed border */
+    background: transparent;
+    border: none;
     border-radius: 16px;
-    padding: 4rem 2rem;
+    padding: 0;
     text-align: center;
-    transition: var(--transition-smooth);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-}
-
-.acuity-placeholder:hover {
-    border-color: var(--matcha-green);
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 8px 25px var(--matcha-glow);
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .calendar-icon {
